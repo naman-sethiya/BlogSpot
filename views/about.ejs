@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogSpot | <%= title %></title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+    
+      body {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 0 20px;
+        font-family: 'Noto Serif', serif;
+        color: #222;
+        background-color:#DDD0C8;
+      }
+    
+      p, h1, h2, h3, a, ul {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        color:#323232;
+      }
+    
+      /* Navigation & Footer Styles */
+      nav {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+        text-transform: uppercase;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        color:white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+    
+      }
+    
+      nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+      }
+    
+      nav li {
+        list-style-type: none;
+        margin-left: 20px;
+      }
+    
+      nav h1 {
+        font-size: 3em;
+        font-weight: 700;
+      }
+    
+      nav p, nav a {
+        color: #777;
+        font-weight: 400;
+      }
+    
+      footer {
+        color: #777;
+        text-align: center;
+        margin: 80px auto 20px;
+      }
+    
+      /* Headings Styles */
+      h2 {
+        margin-bottom: 40px;
+      }
+    
+      h3 {
+        text-transform: capitalize;
+        margin-bottom: 8px;
+      }
+    
+      /* Snippet and Content Styles */
+      .snippet {
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 8px;
+      }
+    
+      .content {
+        margin-left: 10px;
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+        padding-left: 20px;
+      }
+
+      .blogs a{
+            display: block;
+            margin: 40px 0;
+            padding-left: 30px;
+            border-left: 6px solid #777;
+            padding-top: 10px;
+            
+        }
+
+        .blogs a:hover {
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            border-radius: 2px;
+            transition: box-shadow 0.3s ease;
+        }
+
+      .about{
+        color:#323232;
+        width: 1200px;
+      }
+    
+      /* Create Styles */
+      .create-blog form {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+    
+      .create-blog input,
+      .create-blog textarea {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        padding: 8px;
+      }
+    
+      .create-blog label {
+        display: block;
+        margin-top: 24px;
+        font-weight: 700;
+      }
+    
+      textarea {
+        height: 120px;
+      }
+    
+      .create-blog button {
+        margin-top: 20px;
+        background: crimson;
+        color: white;
+        padding: 6px;
+        border: none;
+        font-size: 1.2em;
+        cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="site-title">
+            <a href="/"><h1>BlogSpot</h1></a>
+            <p>Blog, Connect, Inspire</p>
+        </div>
+        <ul>
+            <li><a href="/">Blogs</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/blogs/create">New Blog</a></li>
+        </ul>
+    </nav>
+
+    <div class="about">
+        <h2>About us</h2>
+        
+
+         <p>Welcome to our blog! We are a passionate team of writers dedicated to bringing you engaging and insightful content on a variety of topics. Our mission is to inspire, educate, and entertain our readers through thought-provoking articles, stories, and discussions.
+          
+          At our blog, we believe that knowledge is empowering. We strive to provide valuable information that can enhance your life, broaden your perspectives, and ignite your curiosity. Whether you're seeking practical advice, exploring new ideas, or simply looking for inspiration, our blog is here to accompany you on your journey.
+          
+          We cover a wide range of subjects, including lifestyle, health and wellness, personal development, travel, technology, and much more. Our team of experienced writers and experts curates content that is well-researched, informative, and relevant to your interests. We aim to deliver articles that not only inform but also engage and spark meaningful conversations among our readers.
+          
+          We value diversity and inclusivity, and our blog reflects that commitment. We celebrate different voices, experiences, and perspectives, aiming to create a welcoming space for all. We encourage open dialogue and invite you to share your thoughts and insights in the comments section of our articles.
+          
+          Our goal is to create a community of like-minded individuals who are passionate about learning and personal growth. We believe that by sharing knowledge, experiences, and ideas, we can collectively inspire positive change in our lives and the world around us.
+          
+          Thank you for visiting our blog. We hope you enjoy exploring our articles and find them valuable and enriching. Join us on this journey of discovery, inspiration, and self-improvement. Together, let's embark on a quest for knowledge, growth, and a life well-lived.
+          
+          Happy reading!
+        </p>
+    </div>
+    
+</body>
+</html>
